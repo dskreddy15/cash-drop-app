@@ -1,1 +1,0 @@
-# cash-drop-app
