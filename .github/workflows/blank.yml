@@ -42,6 +42,4 @@ jobs:
       - name: Build backend
         run: docker compose build backend
 
-      - name: run docker containers
-        run: docker compose up
       
