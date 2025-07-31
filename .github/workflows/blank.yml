@@ -31,7 +31,7 @@ jobs:
       - name: Set up Docker Compose
         uses: hoverkraft-tech/compose-action@v2.3.0
         with:
-          compose-file: ./docker-compose.yml
+          compose-file: ./docker-compose.yaml
       
       # Runs a single command using the runners shell
       - name: Build front end using docker
