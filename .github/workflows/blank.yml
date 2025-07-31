@@ -34,14 +34,14 @@ jobs:
           compose-file: ./docker-compose.yaml
       
       - name: Verify Docker Compose installation
-        run: docker-compose --version
+        run: docker compose --version
 
       - name: Build frontend
-        run: docker-compose build frontend
+        run: docker compose build frontend
 
       - name: Build backend
-        run: docker-compose build backend
+        run: docker compose build backend
 
       - name: run docker containers
-        run: docker-compose up
+        run: docker compose up
       
