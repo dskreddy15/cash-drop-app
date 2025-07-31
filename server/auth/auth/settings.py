@@ -108,8 +108,13 @@ DATABASES = {
 
 # CORS settings
 CORS_ALLOWED_ORIGINS = [
+<<<<<<< HEAD
     'http://localhost',  # Add your React development server origin
     'http://127.0.0.1',  # Alternative localhost address
+=======
+    'http://localhost:3000',  # Add your React development server origin
+    'http://127.0.0.1:3000',  # Alternative localhost address
+>>>>>>> 609818ac2856dc4ccb5c343887071656f1c0a6fc
 ]
 
 CORS_ALLOW_CREDENTIALS = True  # Allow cookies/auth credentials if needed
