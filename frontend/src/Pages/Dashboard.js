@@ -82,6 +82,7 @@ const EditUserModal = ({ user, onClose, onSave }) => {
 };
 
 const Dashboard = () => {
+
     const [users, setUsers] = useState([]);
     const [isLoggedIn, setIsLoggedIn] = useState(!!localStorage.getItem('access_token'));
     const [isAdmin, setIsAdmin] = useState(localStorage.getItem('is_admin') === 'true');

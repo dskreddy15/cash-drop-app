@@ -97,6 +97,15 @@ DATABASES = {
     }
 }
 
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.postgresql',
+#        'NAME': 'cash_drop_db',
+#        'HOST': 'localhost', # e.g., 'localhost' or an IP address
+#        'PORT': '5432', # e.g., '5432'
+#    }
+#}
+
 # CORS settings
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',  # Add your React development server origin
@@ -150,7 +159,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
-STATIC_URL = "static/"
+STATIC_URL = "/static/"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field

@@ -1,8 +1,22 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, Navigate } from "react-router-dom";
-import Header from "./Header";
 
 function RegisterPage() {
+
+    useEffect(() => {
+        const token = localStorage.getItem('access_token');
+        try {
+            if (token) { 
+              console.log("User is logged in.");
+            }
+            else{
+                alert("You are not logged in. Please log in to Register New Users.");
+            }
+        } catch (error) {
+            console.error("Error checking login status:", error);
+        }
+    }, []);
+
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [isAdmin, setIsAdmin] = useState(false);

@@ -57,7 +57,6 @@ function Header() {
                 ) : (
                     <>
                         <Link to="/login" className="text-pink-500 m-3 p-3">Login</Link>
-                        <Link to="/register" className="text-pink-500 m-3 p-3">Register</Link>
                         <Link to="/cash-drop" className="text-pink-500 m-3 p-3">Cash Drop</Link>
                         <Link to="/cd-dashboard" className="text-pink-500 m-3 p-3">Cash Drop Dashboard</Link>
                     </>

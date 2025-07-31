@@ -1,0 +1,312 @@
+[
+{
+    "model": "sessions.session",
+    "pk": "6395c51ksybxo7zcy0ho77b74ycfxzxq",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlnYG_8o6XOGaHdt4wCypTipEHeHSCmgfTPzXmLCbS3T1tMyzVFcBIjT70bIj1R3EO9Yb01yq-syk9wVedAuxxbT83q4fwcFe_nWXrMCdfaKjAYODhNZY7IHdhAt4uACEHpOAwbjVeCsgUzMwADaGi_eH9ALN3o:1uba88:nZNQekFYSXZKqADjHz-lmSl0ktTVuAggNBIuc60x9VM",
+        "expire_date": "2025-07-29T07:31:12.886Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "a7f70ynim2wwqe48h6q99xjm0wer2sy8",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlnYG_8o6XOGaHdt4wCypTipEHeHSCmgfTPzXmLCbS3T1tMyzVFcBIjT70bIj1R3EO9Yb01yq-syk9wVedAuxxbT83q4fwcFe_nWXrMCdfaKjAYODhNZY7IHdhAt4uACEHpOAwbjVeCsgUzMwADaGi_eH9ALN3o:1ubZam:0SHOmmxTtMOx_5AVrA0sUsL7xCzaDluwbPJnWnoW-A0",
+        "expire_date": "2025-07-29T06:56:44.450Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "szo2ujql49usv5nnsdd9dng6grf2pjtx",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlnYG_8o6XOGaHdt4wCypTipEHeHSCmgfTPzXmLCbS3T1tMyzVFcBIjT70bIj1R3EO9Yb01yq-syk9wVedAuxxbT83q4fwcFe_nWXrMCdfaKjAYODhNZY7IHdhAt4uACEHpOAwbjVeCsgUzMwADaGi_eH9ALN3o:1ubZbm:dDyAD8RrX5PUudcPnDFO0MTCdksH-Retb6o9sS7Wd8Q",
+        "expire_date": "2025-07-29T06:57:46.176Z"
+    }
+},
+{
+    "model": "token_blacklist.blacklistedtoken",
+    "pk": 1,
+    "fields": {
+        "token": 1,
+        "blacklisted_at": "2025-07-19T06:52:18.077Z"
+    }
+},
+{
+    "model": "token_blacklist.blacklistedtoken",
+    "pk": 2,
+    "fields": {
+        "token": 2,
+        "blacklisted_at": "2025-07-19T06:55:38.638Z"
+    }
+},
+{
+    "model": "token_blacklist.blacklistedtoken",
+    "pk": 3,
+    "fields": {
+        "token": 3,
+        "blacklisted_at": "2025-07-19T08:34:05.530Z"
+    }
+},
+{
+    "model": "auth_app.user",
+    "pk": 1,
+    "fields": {
+        "password": "",
+        "last_login": null,
+        "email": "admin@example.com",
+        "name": "Admin",
+        "is_admin": true,
+        "totp_secret": "LPY53BQ3L7MLW5A6EVIVDR2I7SMHEQC4"
+    }
+},
+{
+    "model": "auth_app.user",
+    "pk": 2,
+    "fields": {
+        "password": "",
+        "last_login": null,
+        "email": "testA@example.com",
+        "name": "testA1",
+        "is_admin": true,
+        "totp_secret": "2HGRKGD2FFVEVVP4QPPKSG2TDWQDZV7H"
+    }
+},
+{
+    "model": "auth_app.user",
+    "pk": 3,
+    "fields": {
+        "password": "",
+        "last_login": null,
+        "email": "testB@example.com",
+        "name": "testBB",
+        "is_admin": false,
+        "totp_secret": "33UKR3U7PM4VCXKKB2FT4C24ENAOC776"
+    }
+},
+{
+    "model": "auth_app.user",
+    "pk": 5,
+    "fields": {
+        "password": "",
+        "last_login": null,
+        "email": "testC@example.com",
+        "name": "testC1",
+        "is_admin": false,
+        "totp_secret": "6VN72KVG5DTMEVWD7KZ73AYXFAMUO6PK"
+    }
+},
+{
+    "model": "cash_drop_app1.cashdrawer",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "admin@example.com"
+        ],
+        "workstation": "1",
+        "shift_number": "1",
+        "date": "2025-07-19",
+        "starting_cash": "200.00",
+        "hundreds": 1,
+        "fifties": 3,
+        "twenties": 3,
+        "tens": 2,
+        "fives": 10,
+        "twos": 0,
+        "ones": 20,
+        "half_dollars": 0,
+        "quarters": 20,
+        "dimes": 6,
+        "nickels": 10,
+        "pennies": 20,
+        "total_cash": "406.30",
+        "created_at": "2025-07-19T03:29:57.735Z"
+    }
+},
+{
+    "model": "cash_drop_app1.cashdrawer",
+    "pk": 2,
+    "fields": {
+        "user": [
+            "admin@example.com"
+        ],
+        "workstation": "1",
+        "shift_number": "2",
+        "date": "2025-07-19",
+        "starting_cash": "200.00",
+        "hundreds": 0,
+        "fifties": 0,
+        "twenties": 20,
+        "tens": 10,
+        "fives": 5,
+        "twos": 0,
+        "ones": 27,
+        "half_dollars": 0,
+        "quarters": 30,
+        "dimes": 5,
+        "nickels": 20,
+        "pennies": 44,
+        "total_cash": "561.44",
+        "created_at": "2025-07-19T03:37:02.915Z"
+    }
+},
+{
+    "model": "cash_drop_app1.cashdrawer",
+    "pk": 3,
+    "fields": {
+        "user": [
+            "testC@example.com"
+        ],
+        "workstation": "2",
+        "shift_number": "1",
+        "date": "2025-07-19",
+        "starting_cash": "200.00",
+        "hundreds": 2,
+        "fifties": 0,
+        "twenties": 12,
+        "tens": 5,
+        "fives": 27,
+        "twos": 1,
+        "ones": 37,
+        "half_dollars": 0,
+        "quarters": 17,
+        "dimes": 9,
+        "nickels": 39,
+        "pennies": 47,
+        "total_cash": "671.57",
+        "created_at": "2025-07-19T06:55:07.667Z"
+    }
+},
+{
+    "model": "cash_drop_app1.cashdrop",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "admin@example.com"
+        ],
+        "drawer_entry": 1,
+        "workstation": "1",
+        "shift_number": "1",
+        "date": "2025-07-19",
+        "drop_amount": "206.30",
+        "hundreds": 1,
+        "fifties": 2,
+        "twenties": 0,
+        "tens": 0,
+        "fives": 1,
+        "twos": 0,
+        "ones": 1,
+        "half_dollars": 0,
+        "quarters": 1,
+        "dimes": 0,
+        "nickels": 1,
+        "pennies": 0,
+        "created_at": "2025-07-19T03:29:57.754Z"
+    }
+},
+{
+    "model": "cash_drop_app1.cashdrop",
+    "pk": 2,
+    "fields": {
+        "user": [
+            "admin@example.com"
+        ],
+        "drawer_entry": 2,
+        "workstation": "1",
+        "shift_number": "2",
+        "date": "2025-07-19",
+        "drop_amount": "361.44",
+        "hundreds": 0,
+        "fifties": 0,
+        "twenties": 18,
+        "tens": 0,
+        "fives": 0,
+        "twos": 0,
+        "ones": 1,
+        "half_dollars": 0,
+        "quarters": 1,
+        "dimes": 1,
+        "nickels": 1,
+        "pennies": 4,
+        "created_at": "2025-07-19T03:37:02.934Z"
+    }
+},
+{
+    "model": "cash_drop_app1.cashdrop",
+    "pk": 3,
+    "fields": {
+        "user": [
+            "testC@example.com"
+        ],
+        "drawer_entry": 3,
+        "workstation": "2",
+        "shift_number": "1",
+        "date": "2025-07-19",
+        "drop_amount": "471.57",
+        "hundreds": 2,
+        "fifties": 0,
+        "twenties": 12,
+        "tens": 3,
+        "fives": 0,
+        "twos": 0,
+        "ones": 1,
+        "half_dollars": 0,
+        "quarters": 2,
+        "dimes": 0,
+        "nickels": 1,
+        "pennies": 2,
+        "created_at": "2025-07-19T06:55:07.688Z"
+    }
+},
+{
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "admin@example.com"
+        ],
+        "jti": "61ee32ef2ab346128c2ea87f3bb76a66",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1Mjk5MjIzNSwiaWF0IjoxNzUyOTA1ODM1LCJqdGkiOiI2MWVlMzJlZjJhYjM0NjEyOGMyZWE4N2YzYmI3NmE2NiIsInVzZXJfaWQiOjF9.DqOnaAtjhw5opxSYS-xRPpT6VIbK-86EALIkGCyebhs",
+        "created_at": "2025-07-19T06:52:18.066Z",
+        "expires_at": "2025-07-20T06:17:15Z"
+    }
+},
+{
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 2,
+    "fields": {
+        "user": [
+            "testC@example.com"
+        ],
+        "jti": "438ebb27ceb74805ae4346770ec13231",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1Mjk5NDM5MCwiaWF0IjoxNzUyOTA3OTkwLCJqdGkiOiI0MzhlYmIyN2NlYjc0ODA1YWU0MzQ2NzcwZWMxMzIzMSIsInVzZXJfaWQiOjV9.T0hgJjvgTSA2BVtvDM_-YG0y--OX3HMeNDnguFZQzFg",
+        "created_at": "2025-07-19T06:53:10.418Z",
+        "expires_at": "2025-07-20T06:53:10Z"
+    }
+},
+{
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 3,
+    "fields": {
+        "user": [
+            "admin@example.com"
+        ],
+        "jti": "c40f300aba854a5e8c1a791430c28910",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1Mjk5ODAyNCwiaWF0IjoxNzUyOTExNjI0LCJqdGkiOiJjNDBmMzAwYWJhODU0YTVlOGMxYTc5MTQzMGMyODkxMCIsInVzZXJfaWQiOjF9.OMHxqUX1oSdxiRO-stgByjpLooc5xomgFXbP1GtecwA",
+        "created_at": "2025-07-19T07:53:44.033Z",
+        "expires_at": "2025-07-20T07:53:44Z"
+    }
+},
+{
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 4,
+    "fields": {
+        "user": [
+            "testA@example.com"
+        ],
+        "jti": "94a5805a3082451d85fda082bc79f7c6",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1NDA2NzkwOSwiaWF0IjoxNzUzOTgxNTA5LCJqdGkiOiI5NGE1ODA1YTMwODI0NTFkODVmZGEwODJiYzc5ZjdjNiIsInVzZXJfaWQiOjJ9.9qxG8_RdZp0Qz8DjVtOO3hExArdAeufusL08BFogn50",
+        "created_at": "2025-07-31T17:05:09.883Z",
+        "expires_at": "2025-08-01T17:05:09Z"
+    }
+}
+]

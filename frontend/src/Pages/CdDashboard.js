@@ -2,6 +2,21 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 function CdDashboard() {
+
+  useEffect(() => {
+    const token = localStorage.getItem('access_token');
+    try {
+        if (token) { 
+          console.log("User is logged in.");
+        }
+        else{
+            //alert("You are not logged in. Please log in to access the dashboard.");
+        }
+    } catch (error) {
+        console.error("Error checking login status:", error);
+    }
+}, []);
+
   const navigate = useNavigate();
   const [selectedDate, setSelectedDate] = useState(new Date().toISOString().slice(0, 10));
   const [cashDrops, setCashDrops] = useState([]);
@@ -74,7 +89,7 @@ function CdDashboard() {
           Cash Drop Dashboard
         </h2>
 
-        <div className="mb-8 flex justify-center">
+        <div className="mb-8 grid justify-center">
           <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-4">
             <div className="flex flex-col">
               <label htmlFor="date" className="text-gray-700 dark:text-gray-300 font-medium mb-1">
@@ -103,7 +118,7 @@ function CdDashboard() {
           </div>
         )}
 
-        <div className="space-y-12">
+        <div className="grid grid-cols-2 space-x-12">
           <div>
             <h3 className="text-2xl font-semibold text-blue-800 dark:text-blue-200 mb-6 border-b pb-3 border-blue-200 dark:border-gray-600">
               Cash Drops

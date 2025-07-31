@@ -62,7 +62,7 @@ function CashDrop() {
         setLoading(false);
       } catch (error) {
         console.error('Error fetching user:', error);
-        alert('Please log in to continue.');
+        //alert('Please log in to continue.');
         navigate('/login');
       }
     };
